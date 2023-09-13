@@ -8,8 +8,6 @@ int main()
 	printf("이름?: ");
 	// 이름을 입력
 	scanf_s("%s", name, sizeof(name));
-	// 줄바꿈
-	printf('\n');
 
 
 	// 나이 변수 선언
@@ -18,8 +16,6 @@ int main()
 	printf("나이?: ");
 	// 나이를 입력
 	scanf_s("%d", &age);
-	// 줄바꿈
-	printf('\n');
 
 	// 몸무게 변수 선언
 	double weight;
@@ -27,8 +23,6 @@ int main()
 	printf("몸무게?: ");
 	// 몸무게를 입력
 	scanf_s("%lf", &weight);
-	// 줄바꿈
-	printf('\n');
 
 	// 키 변수 선언
 	double height;
@@ -37,18 +31,14 @@ int main()
 	// 키를 입력
 	scanf_s("%lf", &height);
 
-	// 줄바꿈
-	printf('\n');
 
 	// 범죄명 변수 선언
 	char crime[512];
 	// 입력해 달라고 요청
 	printf("범죄?: ");
 	// 범죄명을 입력
-	scanf_s("%s", &crime, sizeof(crime));
+	scanf_s("%s", crime, sizeof(crime));
 
-	// 줄바꿈
-	printf('\n');
 
 	//정보가 나오는 부분
 	printf("-----범죄자 정보-----\n");
