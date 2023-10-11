@@ -3,12 +3,14 @@
 // multiF 함수를 선언
 long multiF(int value);
 
-void main()
+int main()
 {
 	// 2, 3, 5까지의 곱을 출력하는 부분
-	printf("1부터 2까지의 곱은 %lld\n", multiF(2));
-	printf("1부터 3까지의 곱은 %lld\n", multiF(3));
-	printf("1부터 5까지의 곱은 %lld\n", multiF(5));
+	printf("1부터 2까지의 곱은 %ld\n", multiF(2));
+	printf("1부터 3까지의 곱은 %ld\n", multiF(3));
+	printf("1부터 5까지의 곱은 %ld\n", multiF(5));
+
+	return 0;
 }
 
 // multiF 함수를 정의
