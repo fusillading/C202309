@@ -64,3 +64,4 @@ dkms.conf
 *.ipch
 x64
 *.exe
+*.json
