@@ -66,4 +66,7 @@ x64
 *.exe
 *.json
 .editorconfig
-*/class.c
+class.c
+
+.wsuo
+*.sqlite
